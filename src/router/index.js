@@ -6,10 +6,14 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Homepage',
       component: Frontpage
     },
   ]
-})
+});
 
+router.afterEach((to, from) => {
+  document.title = 'LazyStyles · ' + to.name;
+  // Use next tick to handle router history correctly
+});
 export default router
