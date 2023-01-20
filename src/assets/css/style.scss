@@ -1,2 +1,23 @@
 $primary: #0E6AC7;
+$primary-border: #0e5fb0;
+$primary-hover: #0d5ba9;
+$primary-hover-border: #0c5195;
+$primary-active: #0d59a4;
+$primary-active-border: #0c4e8f;
 
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #{$primary};
+    --bs-btn-border-color: #{$primary-border};
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #{$primary-hover};
+    --bs-btn-hover-border-color: #{$primary-hover-border};
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #{$primary-active};
+    --bs-btn-active-border-color: #{$primary-active-border};
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #{$primary};
+    --bs-btn-disabled-border-color: #{$primary};
+}
