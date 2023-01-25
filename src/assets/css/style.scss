@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto&family=Roboto+Mono&display=swap');
+
+$company-font: 'Leckerli One', cursive;
+$text-font: 'Roboto Mono', monospace;
+
 $primary: #0E6AC7;
 $primary-rgb: 14, 106, 199;
 $primary-border: #0e5fb0;
@@ -87,8 +92,7 @@ $secondary-subtle-border: #fcfc87;
     --bs-black-rgb: 0,0,0;
     --bs-body-color-rgb: 33,37,41;
     --bs-body-bg-rgb: 255,255,255;
-    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-font-sans-serif: #{$text-font};
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
     --bs-body-font-size: 1rem;
@@ -185,4 +189,20 @@ $secondary-subtle-border: #fcfc87;
 .list-group {
     --bs-list-group-active-bg: #{$primary-active};
     --bs-list-group-active-border-color: #{$primary-active-border};
+}
+
+body {
+    header {
+        a.navbar-brand {
+            font-family: $company-font;
+        }
+
+        .navbar {
+            &.bg-primary {
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
 }
