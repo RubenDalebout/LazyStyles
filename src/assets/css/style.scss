@@ -181,3 +181,8 @@ $secondary-subtle-border: #fcfc87;
 .text-bg-secondary {
     background-color: RGBA(var(--bs-secondary-rgb),var(--bs-bg-opacity,1))!important;
 }
+
+.list-group {
+    --bs-list-group-active-bg: #{$primary-active};
+    --bs-list-group-active-border-color: #{$primary-active-border};
+}
