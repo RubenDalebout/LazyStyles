@@ -1,7 +1,7 @@
 <template>
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-primary">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand text-light fw-bold" href="#">
                     <img v-bind:src="this.logo" width="50" alt="LazyStyles logo">
                     Pure Generation
@@ -10,7 +10,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
                         <li class="nav-item text-white">
                             <router-link to="/" class="text-decoration-none" active-class="fw-bold">Home</router-link>
                         </li>
@@ -25,9 +25,6 @@
             </div>
         </nav>
     </header>
-
-    <h1>tekst</h1>
-    <p>tekst</p>
 </template>
 
 <script>
