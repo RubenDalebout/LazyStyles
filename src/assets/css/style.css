@@ -136,6 +136,10 @@
   --bs-btn-disabled-border-color: #0E6AC7;
 }
 
+.text-bg-primary {
+  background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
+}
+
 .btn-secondary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #C76B0E;
@@ -151,4 +155,8 @@
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #C76B0E;
   --bs-btn-disabled-border-color: #C76B0E;
+}
+
+.text-bg-secondary {
+  background-color: RGBA(var(--bs-secondary-rgb), var(--bs-bg-opacity, 1)) !important;
 }/*# sourceMappingURL=style.css.map */

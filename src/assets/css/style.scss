@@ -157,6 +157,10 @@ $secondary-subtle-border: #fcfc87;
     --bs-btn-disabled-border-color: #{$primary};
 }
 
+.text-bg-primary {
+    background-color: RGBA(var(--bs-primary-rgb),var(--bs-bg-opacity,1))!important;
+}
+
 .btn-secondary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #{$secondary};
@@ -172,4 +176,8 @@ $secondary-subtle-border: #fcfc87;
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #{$secondary};
     --bs-btn-disabled-border-color: #{$secondary};
+}
+
+.text-bg-secondary {
+    background-color: RGBA(var(--bs-secondary-rgb),var(--bs-bg-opacity,1))!important;
 }
