@@ -1,6 +1,6 @@
 <template>
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img v-bind:src="this.logo" width="50" alt="LazyStyles logo">
