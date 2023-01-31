@@ -22,6 +22,11 @@
                         </li>
                     </ul>
                 </div>
+                <div class="d-flex">
+                    <p>github</p>
+                    <p>theme</p>
+                    <p>version</p>
+                </div>
             </div>
         </nav>
     </header>
